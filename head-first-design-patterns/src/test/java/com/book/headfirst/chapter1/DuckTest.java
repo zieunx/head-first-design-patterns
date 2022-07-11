@@ -1,8 +1,5 @@
 package com.book.headfirst.chapter1;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import com.book.headfirst.chapter1.fly.FlyRocketPowered;
