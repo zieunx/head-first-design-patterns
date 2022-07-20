@@ -1,7 +1,5 @@
 package com.book.headfirst.chapter4.pizza;
 
-import com.book.headfirst.chapter4.pizza.Pizza;
-
 public abstract class PizzaStore {
 
 	public Pizza orderPizza(String type) {
