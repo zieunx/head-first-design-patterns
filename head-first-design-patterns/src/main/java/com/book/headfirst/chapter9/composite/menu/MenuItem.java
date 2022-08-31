@@ -1,6 +1,6 @@
-package com.book.headfirst.chapter9.menu;
+package com.book.headfirst.chapter9.composite.menu;
 
-public class MenuItem {
+public class MenuItem extends MenuComponent {
     private String name;
     private String description;
     private boolean vegetarian;
@@ -13,29 +13,33 @@ public class MenuItem {
         this.price = price;
     }
 
+    @Override
     public String getName() {
         return name;
     }
 
+    @Override
     public String getDescription() {
         return description;
     }
 
+    @Override
     public boolean isVegetarian() {
         return vegetarian;
     }
 
+    @Override
     public double getPrice() {
         return price;
     }
 
     @Override
-    public String toString() {
-        return "MenuItem{" +
-                "name='" + name + '\'' +
-                ", description='" + description + '\'' +
-                ", vegetarian=" + vegetarian +
-                ", price=" + price +
-                '}';
+    public void print() {
+        System.out.print(" " + getName());
+        if (isVegetarian()) {
+            System.out.print("(v)");
+        }
+        System.out.println(", " + getPrice());
+        System.out.println("    -- " + getDescription());
     }
 }

@@ -1,9 +1,8 @@
-package com.book.headfirst.chapter9.menu.impl;
+package com.book.headfirst.chapter9.iterator.menu.impl;
 
-import com.book.headfirst.chapter9.menu.Menu;
-import com.book.headfirst.chapter9.menu.MenuItem;
+import com.book.headfirst.chapter9.iterator.menu.Menu;
+import com.book.headfirst.chapter9.iterator.menu.MenuItem;
 
-import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.book.headfirst.chapter9.menu;
+package com.book.headfirst.chapter9.iterator.menu;
 
 import java.util.Iterator;
 
